@@ -425,3 +425,59 @@ td,
 th {
   padding: 0;
 }
+
+/* Layout Styles
+   ========================================================================== */
+
+/*.main-wrapper {
+  width: 90%;
+  margin: auto;
+}*/
+
+.main-header {
+  min-height: 100px;
+  padding: 15px;
+}
+
+.main-logo,
+.main-nav li {
+  float: left;
+}
+
+.main-nav {
+  float: right;
+  padding-right: 235px;
+  padding-top: 7px;
+}
+.main-nav li {
+  margin-top: -15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.main-logo {
+  margin: 0;
+  padding-left: 270px;
+}
+.main-logo a, 
+.main-nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+/* Separator
+   ========================================================================== */
+
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
