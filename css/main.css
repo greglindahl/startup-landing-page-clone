@@ -1,0 +1,133 @@
+body {
+    /*background-color: LightGray;*/
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+div {
+    /*border: 1px solid Chocolate;*/
+}
+.content {
+    padding: 0px 15px;
+    margin: 0 auto;
+/*    min-width: 37.5rem;*/
+}
+:focus {
+    outline: none;
+}
+
+/**
+ * Navigation Section
+ */
+.top-navigation {
+    background-color: #fff;
+}
+
+.top-navigation > .content {
+    width: 970px;
+    height: 35px;
+    margin: 0 auto;
+}
+.top-navigation .logo {
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 95px;
+}
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: -.90rem;
+    padding-top: 5px;
+    padding-right: 90px;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+/**
+ * Introduction Section
+ */
+.introduction {
+    background-image: url('../img/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+.introduction h1,
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+/**
+ * The buttons
+ */
+.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+.introduction .half {
+    width: 49%;
+    padding: 0 0.938rem;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+
+.btn-learn-more {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f15b29), color-stop(1, #f15b29));
+  background:-moz-linear-gradient(top, #f15b29 5%, #f15b29 100%);
+  background:-webkit-linear-gradient(top, #f15b29 5%, #f15b29 100%);
+  background:-o-linear-gradient(top, #f15b29 5%, #f15b29 100%);
+  background:-ms-linear-gradient(top, #f15b29 5%, #f15b29 100%);
+  background:linear-gradient(to bottom, #f15b29 5%, #f15b29 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f15b29', endColorstr='#f15b29',GradientType=0);
+  background-color:#f15b29;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+}
+
+.btn-learn-more:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f15b29), color-stop(1, #f15b29));
+  background:-moz-linear-gradient(top, #f15b29 5%, #f15b29 100%);
+  background:-webkit-linear-gradient(top, #f15b29 5%, #f15b29 100%);
+  background:-o-linear-gradient(top, #f15b29 5%, #f15b29 100%);
+  background:-ms-linear-gradient(top, #f15b29 5%, #f15b29 100%);
+  background:linear-gradient(to bottom, #f15b29 5%, #f15b29 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f15b29', endColorstr='#f15b29',GradientType=0);
+  background-color:#f15b29;
+}
+
+.btn-learn-more:active {
+  position:relative;
+  top:1px;
+}
